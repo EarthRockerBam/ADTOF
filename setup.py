@@ -17,7 +17,7 @@ setuptools.setup(
        # "madmom@git+https://github.com/CPJKU/madmom",  # For Python>3.9
         "tensorflow>=2.13.0",
         "numpy>=1.23.5",
-        "matplotlib>=3.8.1",
+        "matplotlib",
         "pandas>=1.2.4",
         "mir_eval>=0.6",
         "jellyfish",
