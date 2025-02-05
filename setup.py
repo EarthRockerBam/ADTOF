@@ -1,7 +1,5 @@
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
 
 setuptools.setup(
     name="ADTOF",
@@ -9,7 +7,6 @@ setuptools.setup(
     # scripts=glob.glob("bin/*"),
     author="Mickael Zehren",
     description="Additional material for the paper 'High-quality and reproducible automatic drum transcription from crowdsourced data'",
-    long_description=long_description,
     url="",
     packages=setuptools.find_packages(),
     package_data={"adtof": ["models/*"]},
